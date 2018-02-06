@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Stream - Mason Goest</title>
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="css/font-awesome.min.css"/>
+	  <link rel="stylesheet" href="css/test.min.css"/>
+	  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	  <link rel="icon" href="favicon.ico" type="image/x-icon">
+	</head>
+<body id="bigscreen" class="thin">
+
+    <div id="main-nav" class="navbar navbar-static-top navbar-inverse">
+    <div class="container-fluid">
+    
+        <nav class="navbar navbar-inverse navbar-fixed-top noselect" role="navigation" style="margin:0px;">
+		<div class="container-fluid">
+		<div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-MG-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		    <a class="navbar-brand" href="index.html"><img src="images/titleLogoUpdateNoLogoSmall.png"></a>
+		</div>
+		 <div class="collapse navbar-collapse" id="bs-MG-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li><a class="homeColor" id="home" href="#"><span class="navEffect homeColor">Subscribe</span></a></li>
+				<li><a class="aboutColor" id="donate" href="#" ><span class="navEffect homeColor">Donate</span></a></li>
+				
+			</ul>
+			<ul class="nav navbar-nav navbar-right social">
+				<!-- <li><a href="http://www.masongoest.com/resume.html" title="Resume"><i class="fa fa-lg fa-pencil-square-o"></i></a></li> -->
+
+                <li><a class="twitterColor" href="https://twitter.com/MasonGoest" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
+                
+                <li><a class="facebookColor" href="https://facebook.com/MasonGoest" title="Facebook"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a class="twitchColor" href="http://www.twitch.tv/masongoest" title="Twitch"><i class="fa fa-lg fa-twitch"></i></a></li>
+                <li><a class="youtubeColor" href="https://youtube.com/MasonGoest" title="YouTube"><i class="fa fa-lg fa-youtube-play"></i></a></li>
+                <li><a class="instaColor" href="https://www.instagram.com/masongoest/" title="Instagram"><i class="fa fa-lg fa-instagram"></i></a></li>
+                <!-- <li><a class="redditColor" href="https://facebook.com/MasonGoest" title="Reddit"><i class="fa fa-lg fa-reddit"></i></a></li> -->
+                 <!-- <li><a href="https://google.com/+MasonGoest" title="Google+"><i class="fa fa-lg fa-google-plus"></i></a></li> -->
+                
+                <li><a class="paypalColor" href="https://www.paypal.me/MasonGoest" title="Donate"><i class="fa fa-lg fa-paypal"></i></a></li>
+                <!-- <li><a class="patreonColor" href="http://www.patreon.com/masongoest" title="Patreon"><i class="fa fa-lg fa-patreon"></i></a></li> -->
+                <!-- <li><a href="http://www.masongoest.com/store" title="Store"><i class="fa fa-lg fa-shopping-cart"></i></a></li> -->
+
+                <!-- <li><a class="blogColor" href="http://www.masongoest.com/blog" title="Blog"><i class="fa fa-lg fa-book"></i></a></li> -->
+				<!-- <li><a href="http://www.masongoest.com/forum" title="Forum"><i class="fa fa-lg fa-users"></i></a></li> -->
+				<li><a class="linkedColor" href="https://www.linkedin.com/in/masongoest" title="LinkedIn"><i class="fa fa-lg fa-linkedin"></i></a></li>
+                <li><a class="streamColor" href="stream.html" title="Stream"><i class="fa fa-lg fa-television"></i></a></li>
+                <!-- <li><a class="streamColor" href="#" title="Login/Logout"><i class="fa fa-lg fa-user"></i></a></li> -->
+                <li class="dropdown"><a href="#" class="dropdown-toggle streamColor navEffect" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-lg fa-user navEffect"></i>       Profile<span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="#">Account</a></li>
+            			<li><a href="#">Messages</a></li>
+            			<li><a href="#">Authentication</a></li>
+            			<li role="separator" class="divider"></li>
+            			<li><a href="#">Sign In / Sign Out</a></li>
+          			</ul>
+        		</li>
+                
+                <!-- <li><a href="https://github.com/MasonGoest"><i class="fa fa-lg fa-github"></i></a></li> -->             
+            </ul>
+		</div>
+		</div>
+		</div>
+	</nav>
+    </div>
+</div>
+    <div id="page-content" class="container clearfix">
+
+        <div id="stream-panel">
+            <div id="stream-wrap">
+                <iframe class="stream-element" marginheight="0" marginwidth="0" frameborder="0" src="http://player.twitch.tv/?channel=masongoest" scrolling="no" seamless allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="chat-panel">
+            <div id="chat-panel-resize-bar"></div>
+            <div class="panelheader clearfix">
+                <div class="toolgroup clearfix">
+                    <div id="chat-panel-tools">
+                        
+                        <a title="Twitch Chat" id="twitchChat" class="pull-left twitchToolColor"><span class="fa fa-twitch"></span></a>
+                        <a title="Sub Chat" id="subChat" class="pull-left"><span class="fa fa-comment-o"></span></a>
+                        <a title="Twitch and Sub Chat" id="bothChat" class="pull-left"><span class="fa fa-comments-o"></span></a>
+
+                        <a title="Close" id="close" class="pull-right"><span class="fa fa-remove"></span></a>
+                        <a title="Refresh" id="refresh" class="pull-right"><span class="fa fa-refresh"></span></a>
+                        <a title="Popout" id="popout" class="pull-right"><span class="fa fa-share"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="chat-wrap">
+            	<span id="twitchChatTest">
+                	<iframe id="chat-frame" class="stream-element" style="border:none; width: 100%;" seamless="seamless" src="https://twitch.tv/chat/embed?channel=masongoest"></iframe>
+                </span>
+
+                <span id="subChatTest">
+                	<iframe id="chat-frame" class="stream-element" style="border:none; width: 100%;" seamless="seamless" src="https://twitch.tv/chat/embed?channel=GOEmasons"></iframe>
+                </span>
+
+                <span id="bothChatTest">
+                	<iframe id="chat-frame" class="stream-element" style="border:none; width: 100%;" seamless="seamless" src=""></iframe>
+                </span>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"> </script>
+	<script src="js/test.min.js"> </script>
+	<script src="js/chat.js"> </script>
+</body>
+
+</html>

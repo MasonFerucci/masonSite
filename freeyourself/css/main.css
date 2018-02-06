@@ -1,0 +1,171 @@
+/********** General **********/
+@font-face {
+  font-family: 'Ayuma';
+  src: url(../fonts/AYUMA.ttf);
+}
+
+body {
+  text-align: center;
+  background-color: #fbf9f3;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.titleName {
+  background-image: url("../img/freeYourself.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 465px;
+}
+.titleName h1 {
+  font-family: 'Ayuma';
+  font-size: 7em;
+  text-align: center;
+  text-shadow: black 3px -1px 7px;
+  color: white;
+  padding-top: 90px;
+}
+
+/********** Nav **********/
+
+.button {
+  background-color: rgba(204, 204, 255, .85);
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  border: 1px solid black;
+  color: black;
+  font-weight: bolder;
+  text-shadow: #fff 3px -1px 7px;
+}
+
+.buttonContainer {
+  display: inline-block;
+  min-width: 800px;
+  margin: -100px auto 0 auto;
+  text-align: center;
+}
+
+/**** Gllobal helper clases ***/
+.subtext {
+ padding: 4px 0;
+}
+/********* Global Elements *********/
+.sub-container {
+}
+
+.page-container {
+  position: relative;
+  margin: 0 100px;
+  border: solid 1px black;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+/********** About **********/
+
+.page-About {
+}
+
+.page-About .profilePic {
+  position: absolute;
+  top: -50px;
+  left: -75px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.page-About p:nth-child(2) {
+  margin: 5px 30px 5px 100px;
+}
+
+.page-About h3 {
+  color: green;
+}
+
+.page-Services table {
+  min-width: 400px;
+  border-style: solid;
+  border-width: 1px 1px 3px 3px;
+  border-color: black;
+  
+  width: 80%;
+  margin: 3px auto 0 auto;
+
+}
+
+.page-Services table tr {
+  border-bottom: solid 1px black;
+}
+
+.page-Services table tr td:first-child {
+  text-align: left;
+  padding: 0 0 0 5px;
+}
+
+.page-Services table tr:nth-child(odd) {
+  background-color: #bebebe;
+}
+.page-Services table tr:nth-child(even) {
+  background-color: #fff;
+}
+
+.page-Services table th {
+  font-weight: bold;
+  border-bottom: solid 1px black;
+   background-color: aliceblue;
+}
+
+/********** Services **********/
+.card {
+  display: inline-block;
+  border: solid 1px black;
+  min-width: 300px;
+  min-height: 300px;
+}
+
+.serviceCard {
+  border: solid 1px black;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.serviceTableCard {
+  border:solid 1px black;
+  height: auto;
+  position: relative;
+  background-color: aliceblue;
+  min-width: 606px;
+  vertical-align: top;
+}
+.serviceTableCard span {
+  font-weight: bold;
+  padding: 4px 0 0 0;
+  display: block;
+}
+
+.card.serviceCard header{ 
+  display: block;
+  width: 70%;
+  margin: auto;
+  padding: 10px 20px;
+  
+  border-bottom: solid black 1px;
+ }
