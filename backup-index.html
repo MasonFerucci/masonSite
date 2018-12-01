@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mason D. Ferucci</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top noselect" role="navigation" style="margin:0px;">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-MG-navbar-collapse-1" aria-expanded="false">
+		  		<span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+				<!-- <a class="navbar-brand" href="index.html"><img src="images/titleLogoUpdateNoLogoSmall.png"></a> -->
+			</div>
+			<div class="collapse navbar-collapse" id="bs-MG-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a class="homeColor" id="home" onclick="smoothScroll(document.getElementById('pageOne'))"><span class="navEffect homeColor">Home</span></a></li>
+					<li><a class="aboutColor" id="about" onclick="smoothScroll(document.getElementById('pageTwo'))"><span class="navEffect aboutColor">About Me</span></a></li>
+					<li><a class="bioColor" id="bio" onclick="smoothScroll(document.getElementById('pageThree'))"><span class="navEffect bioColor">Career Synopsis</span></a></li>
+					<li><a class="skillsColor" id="skills" onclick="smoothScroll(document.getElementById('pageFour'))"><span class="navEffect">My Skills</span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <span class="navEffect">Projects</span> <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a class="cdColor" id="cdSite" onclick="smoothScroll(document.getElementById('pageFive'))"> Chicken Danger </a></li>
+							<li><a class="fyColor" id="fySite" onclick="smoothScroll(document.getElementById('pageSix'))">  Free Yourself </a></li>
+							<li><a class="cfColor" id="cfSite" onclick="smoothScroll(document.getElementById('pageSeven'))"> Crystal Fault </a></li>
+							<!-- <li role="separator" class="divider"></li>
+					 <li><a href="#">Other Works Samples</a></li> -->
+						</ul>
+					</li>
+
+					<!-- <li><a id="contact" onclick="smoothScroll(document.getElementById('pageFive'))">Contact Me</a></li> -->
+				</ul>
+				<ul class="nav navbar-nav navbar-right social">
+					<!-- <li><a href="http://www.masongoest.com/resume.html" title="Resume"><i class="fa fa-lg fa-pencil-square-o"></i></a></li> -->
+					<!-- <li><a class="gameColor" href="game.html" title="Game Analysis"><i class="fa fa-lg fa-gamepad"></i></a></li> -->
+					<li><a class="twitterColor" href="https://twitter.com/masonferucci" title="Twitter"><i class="fa fa-lg fa-twitter"></i></a></li>
+
+					<!--  <li><a class="facebookColor" href="https://facebook.com/masonferucci" title="Facebook"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a class="twitchColor" href="http://www.twitch.tv/masongoest" title="Twitch"><i class="fa fa-lg fa-twitch"></i></a></li>
+                <li><a class="youtubeColor" href="https://youtube.com/MasonGoest" title="YouTube"><i class="fa fa-lg fa-youtube-play"></i></a></li> -->
+					<li><a class="instaColor" href="https://www.instagram.com/masonferucci/" title="Instagram"><i class="fa fa-lg fa-instagram"></i></a></li>
+					<!-- <li><a class="redditColor" href="https://reddit.com/r/MasonGoest" title="Reddit"><i class="fa fa-lg fa-reddit"></i></a></li> -->
+					<!-- <li><a href="https://google.com/+MasonGoest" title="Google+"><i class="fa fa-lg fa-google-plus"></i></a></li> -->
+
+					<!-- <li><a class="paypalColor" href="https://www.paypal.me/MasonGoest" title="Donate"><i class="fa fa-lg fa-paypal"></i></a></li> -->
+					<!-- <li><a class="patreonColor" href="http://www.patreon.com/masongoest" title="Patreon"><i class="fa fa-lg fa-patreon"></i></a></li> -->
+					<!-- <li><a href="http://www.masongoest.com/store" title="Store"><i class="fa fa-lg fa-shopping-cart"></i></a></li> -->
+
+					<!-- <li><a class="blogColor" href="http://www.masongoest.com/blog" title="Blog"><i class="fa fa-lg fa-book"></i></a></li> -->
+					<!-- <li><a href="http://www.masongoest.com/forum" title="Forum"><i class="fa fa-lg fa-users"></i></a></li> -->
+					<li><a class="linkedColor" href="https://www.linkedin.com/in/masonferucci" title="LinkedIn"><i class="fa fa-lg fa-linkedin"></i></a></li>
+					<!-- <li><a class="streamColor" href="stream.html" title="Stream"><i class="fa fa-lg fa-television"></i></a></li> -->
+					<!-- <li><a class="streamColor" href="#" title="Login/Logout"><i class="fa fa-lg fa-user"></i></a></li> -->
+					<!-- <li class="dropdown"><a href="#" class="dropdown-toggle streamColor navEffect" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-lg fa-user navEffect"></i>       Profile<span class="caret"></span></a>
+          			<ul class="dropdown-menu">
+            			<li><a href="#">Account</a></li>
+            			<li><a href="#">Messages</a></li>
+            			<li><a href="#">Authentication</a></li>
+            			<li role="separator" class="divider"></li>
+            			<li><a href="#">Sign In / Sign Out</a></li>
+          			</ul>
+        		</li> -->
+
+					<li><a class="patreonColor" href="https://github.com/masonferucci" title="Github"><i class="fa fa-lg fa-github"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="pageOne noselect vertical-center" id="pageOne">
+		<div class="container">
+			<div class="titleCenter">
+				<span class="titleName"> Mason D. Ferucci </span>
+				<!-- <span class="titleQuote">“Talent is a pursued interest. Anything that you’re willing to practice, you can do." ~ Bob Ross</span> -->
+
+				<!-- <span class="titleQuote">"Put in 100 hour weeks, every week. If others are putting in 40 hours and you're putting in 100, even if you are doing the same thing, you will achieve in 4 months what it takes them a year." ~ Elon Musk</span> -->
+
+				<!-- <span class="titleQuote">“True genius, in strategy or anywhere, lies in self-control, self-mastery, presence of mind, and fluidity of thought." ~ Robert Greene</span> -->
+
+				<!-- <span class="titleQuote">“You must always be prepared to place a bet on yourself, on your future, by heading in a direction that others seem to fear." ~ Robert Greene</span> -->
+
+				<!-- <span class="titleQuote">“Mastery is not a function of genius or talent. It is a function of time and intense focus applied to a particular field of knowledge... True genius, in strategy or anywhere, lies in self-control, self-mastery, presence of mind, and fluidity of thought." ~ Robert Greene</span> -->
+
+				<!-- <span class="titleQuote">“Without requirements or design, programming is the art of adding bugs to an empty text file.” - Louis Srygley</span> -->
+
+				<span class="titleQuote">“The technology you use impresses no one. The experience you create with it is everything” - Sean Gerety</span>
+
+			</div>
+		</div>
+	</div>
+
+	<div class="pageTwo noselect vertical-center" id="pageTwo">
+
+		<div class="container">
+			<span class="skillCat">Hello World.</span>
+			<br>
+			<div> <img src="images/meNew-Small.png" class="img-circle"> </div>
+			<br>
+			<br>
+			<span class="masonShort"><span class="firstWord">My name is Mason.</span> I am a self-taught web developer. I am a driven and enthusiatic learner. I love technology; Coding it. Designing it. Using it. I am also an animal lover, game fanatic, and an optimist. I like to keep an open mind with others and I enjoy meeting people and learning more about them. I am what you could call a sociable introvert.</span>
+			<br>
+			<br>
+			<span class="masonShort">I am a New York transplant living in Minneapolis. Though the Minnesota winters are brutal, the many opportunities the Twin Cities have to offer brought me here and keep me hunting for new possibilities. </span>
+			<br>
+			<br>
+		</div>
+	</div>
+
+	<div class="pageThree noselect vertical-center" id="pageThree">
+		<div class="container">
+			<div class="bioText">
+				<span class="skillCat">Career Synopsis</span>
+				<br>
+				<p><span class="firstWord">As</span> I said earlier, I am passionate about learning. I have been very fortunate to have had the opportunity to work on some really awesome projects, and in varying roles. I have been mentored and taught by many skilled programmers,
+					designers, and business people along the way. I am always ready to learn, and always ready to put in the work needed to pick up new skills on the fly.</p>
+				<br>
+				<p><span class="firstWord">I</span> aspire to become a very flexible programmer. I am not afraid to expose myself to multiple languages, frameworks, and tech stacks. As of right now, my core competency lies in front end engineering: HTML5, CSS, and
+					Javascript. I am currently working on expanding my front end development set and starting on full stack development with NodeJS.</p>
+				<br>
+				<p><span class="firstWord">My</span> current project has another developer and myself creating a payment gateway in which people can purchase credits through a Stripe API, and can earn credits while using applications we have designed. This API is very
+					robust and complex, but it has done a lot to introduce me to NodeJS.</p>
+				<br>
+				<p><span class="firstWord">I</span> have also developed an interactive web based chatter that is modulated and has its own API, allowing it to be used in other products for GOEcorp. This was a more basic, but real experience working with full stack development.</p>
+				<br>
+				<p><span class="firstWord">Prior</span> to my development experience, I was unsure as to what exactly I wanted to do. Luckily, I was surrounded by a lot of very experienced talent. I followed their insights and direction, and tried out a few
+					roles</p>
+				<br>
+				<p><span class="firstWord">I</span> started off as a business analyst and product owner at first. The team utilized my business insights and vast knowledge on video game revenue and game theory models. As a result, I took on the task of looking at the
+					current industry for a big project GOEcorp was starting to design. This lead me to product ownership and then to project manager. This was not my favorite thing to do at all; and ultimately I moved on to UX and UI design.</p>
+				<br>
+				<p><span class="firstWord">As</span> a UX designer, I worked with colors, layouts, wireframes, and even some testing. I utilized the Adobe Suite at times and others I used purely open sourced tools like Pencil, or some one offs like Balsamiq. This got
+					me a lot closer to code, and understanding the design needs that a project of this size has.</p>
+				<br>
+				<p><span class="firstWord">I</span> had an excellent mentor and access to some very experienced talent as I have built this foundation of mine. This mix of experience has really benefited me in that it has given me a lot of insight into all the work
+					that goes into creating a stellar web application. It also helped me understand and value the need for separation between business, development, and design as well as the innate need for them to collaborate closely.</p>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<div class="pageFour noselect vertical-center" id="pageFour">
+		<div class="container">
+			<span class="skillCat">My Skills</span>
+
+			<span class="skillTitle"><span class="bold">&#8226; Front End &#8226;</span></span>
+			<span class="skillName">HTML5, CSS3, Bootstrap, Bulma, SASS</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Javascript &#8226;</span></span>
+			<span class="skillName">Angular, AngularJS, React, EmberJS, Ionic, Python, JQuery, Backbone.Marionette, Backbone, Underscore, RequireJS, PixiJS</span>
+			<span class="skillName"><span class="bold">Node.js Tooling:</span> Grunt, Gulp, WebPack</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Backend &#8226;</span></span>
+			<span class="skillName">Node.js, Express, Apache HTTPD, PHP</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Database &#8226;</span></span>
+			<span class="skillName">MongoDB, MariaDB, MySQL</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Systems &#8226;</span></span>
+			<span class="skillName">Linux, Mac, Windows, iOS, Android</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Version Control &#8226;</span></span>
+			<span class="skillName"><span class="bold">Git</span> [SourceTree, Github, command line]</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; User Experience &#8226;</span></span>
+			<span class="skillName">Adobe CC 2016 [Photoshop, Illustrator, After Effects, Audition, XD], Balsamiq, Pencil Projekt, Draw.io</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Additional Skills &#8226;</span></span>
+			<span class="skillName">UX Design, User-Centered Design, Virtualization, Virtual Team Participation, Requirement Gathering and Analysis, Responsive Design, Project Planning, System and Network Administration, Specification Drafting, Distributed Version Control, Process Documentation, Agile Methodologies, Microsoft Office 2016</span>
+			<!-- <br> -->
+			<span class="skillTitle"><span class="bold">&#8226; Miscellaneous Skills &#8226;</span></span>
+			<span class="skillName">Certified Pharmacy Technician, Computer Building, Customer Service, Remote Network and Phone Support, Client Facing Communication, Business Administration</span>
+			<br>
+			<br>
+		</div>
+	</div>
+
+	<div class="pageFive noselect vertical-center" id="pageFive">
+		<div class="container">
+			<span class="skillCat"> Chicken Danger </span>
+			<div class="bioText">
+				<h3><a href="http://chickendanger.com/"> Website </a></h3>
+				<h3> Created: 2016 </h3>
+				<p><span class="firstWord">Chicken Danger</span> is a board game that is currently in production and due for a Kickstarter in the near future.</p>
+				<br>
+				<p>I loved working on this project as the art assets and direction of the game are very low key as it is a family made effort. Pending on the success of the Kickstarter, there will be a page refresh with some higher end assets.</p>
+				<br>
+				<p>The CSS is designed to give a great presentation and makes use of icon fonts, curved edges, and even some hidden animations.</p>
+				<br>
+				<p>This project also has several app video games that are almost ready to go as well. They will not be released until the board game is out however, and I am not at liberty to share those. The games were written in Pixi, ES2015, and backbone/backbone.marionette. Their back end components were all written in node, with some PHP tie ins.</p>
+				<br>
+				<p>Chicken Danger will also launch the GOEcorp platform which hosts a currency system which allows people to buy and earn credits. This also utilizes the chatter, which is used to allow people to chat while playing video games or utilizing any of the platforms web apps.</p>
+				<br>
+			</div>
+		</div>
+	</div>
+
+	<div class="pageSix noselect vertical-center" id="pageSix">
+		<div class="container">
+			<span class="skillCat"> Free Yourself </span>
+			<div class="bioText">
+				<h3><a href="http://masonferucci.com/freeyourself/"> Website </a></h3>
+				<h3> Created: 2015 </h3>
+				<p><span class="firstWord">Free Yourself</span> is a sole proprietor masseuse. The page was created to be simple and elegant.</p>
+				<br>
+				<p>Behind this page is a Wordpress blog with a customized theme. The user is just starting to use the blog.</p>
+				<br>
+				<p>The project has been archived and put in remission for now.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="pageSeven noselect vertical-center" id="pageSeven">
+		<div class="container">
+			<span class="skillCat"> Crystal Fault </span>
+			<div class="bioText">
+				<h3><a href="http://crystalfault.com/archived/"> Website </a></h3>
+				<h3> Created: 2014 </h3>
+				<p><span class="firstWord">Crystal Fault</span> was conceptual game that I helped with. I created this page based on very loose requirements handed to me from the game director at the time. The text was mainly used as a placeholder as was much of the code.</p>
+				<br>
+				<p> The page uses a faux Jquery framework and was written inside of a backbone.marionette application. The presented quite a few challenges when trying to create styling that was global and thematic, but not overly aggressive.</p>
+				<br>
+				<p>As far as the CSS goes, there are not a lot of different techniques or libraries here. Rather the CSS is all hand written and was tested in all major browsers. This was intentional as we were planning on going with either Sass or less.</p>
+				<br>
+				<p>The project has been archived and put in remission for now.</p>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js">
+	</script>
+</body>
+
+</html>
